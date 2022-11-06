@@ -1,0 +1,7 @@
+docker:
+
+# move 'file' from inside docker container named 'x' to local directory. 
+docker cp CONTAINER_NAME:/PATH/TO/FILE FILE
+
+# move 'file' from local directory to inside docker container named 'x'.
+docker cp FILE CONTAINER_NAME:/PATH/TO/FILE
